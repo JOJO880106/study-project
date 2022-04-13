@@ -1,0 +1,86 @@
+/*
+  需下載git bash,在git bash環境操作，
+  下載後需設定user&email:
+    $ git config --global user.name "Your Name"
+    $ git config --global user.email you@example.com
+  設定完成可察看是否成功:
+    $ git config --list
+  配置git init後主要分支的默認名稱(若沒設定為main)
+    $ git config --global init.defaultBranch master
+*/
+//初始化,轉換成git的repository
+  $ git init
+
+//建立新branch並切換過去(可在code上操作create new branch)
+  $ git checkout -b branch名稱
+
+//刪除branch
+  $ git branch -d branch名稱
+
+//切換branch,※切換前需把所有檔案commit(可在code上操作)
+  $ git switch branch名稱
+
+//查看所有branch和remote
+  $ git branch -a
+
+//branch名稱修改
+  $ git branch -m 名稱
+
+//修改過的檔案要新增到git上(可在code上操作)
+  $ git add 檔名(單一檔案)
+  $ git add .(所有檔案)
+
+//將檔案從git上移除掉(可在code上操作)
+  $ git reset -- 檔名
+
+//將add過的檔案存檔至git內(可在code上操作)
+  $ git commit(會開啟編輯器編輯)，q可以跳出編輯器
+  $ git commit -m '輸入存檔訊息'
+
+//將commit過的訊息退回(可在code上操作使用undo list commit)
+  $:git reset --soft HEAD~1(數字可調整往前退多少個)
+
+//將檔案回到上一次存檔狀態(可在code上操作discard changes)
+  $ git checkout -- 檔名(※若存檔一次,檔案會直接消失)
+
+//查看目前add與commit狀態(可在code上觀察)
+  $ git status
+
+//查看存檔紀錄(可在Code上裝外掛觀察線圖'git grapth')
+  $ git log
+
+//要將分支merge回主分支的兩種方法
+  1.在github上面用pull request(建議)
+    先將分支$ git switch回主線做$ git pull,
+    再切回分支做$ git rebase (要rebase回的branch),
+    若有conflicts解完後需做$ git rebase --continue(可能需解很多次),
+    接著$ git push上remote,
+    若歷史紀錄不同則做$ git push -f(強制push上,但會改變歷史,※不建議在主分支上做),
+    接著回github上create pull request
+    
+  2.在自己的電腦上merge
+    先將分支$ git switch回主線做$ git pull,
+    再$ git merge 要被整併branch(※merge後分支會消失),
+    接著就可以$ git push,若不能push,
+    則需在pull一次,若發生conflicts解完衝突即可push
+/*
+  github為git的remote存放端
+*/
+//列出所有遠端紀錄(通常與github連結)(需先創造github專案並連結)
+  $ git remote
+
+//把branch推上remote
+  $ git push remote名稱 branch名稱
+  $ git push  -u remote名稱 branch名稱(能預設remote&branch)
+  $ git push  -u remote名稱 HEAD(能預設remote&branch)※當前的branch
+  $ git push(預設過能直接指定remote&branch)
+
+//下載remote的repository
+  $ git clone 網址
+
+//把remote的新commit抓下來
+  $ git pull(若遇多人開發專案push至github則產生conflicts)
+  選擇:
+    current changes,接受自己檔案
+    incoming changes,接受別人檔案
+    both changes,都接受
