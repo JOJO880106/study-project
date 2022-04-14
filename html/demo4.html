@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML常用標籤基礎教學</title>
+</head>
+<body>
+<!-- form為input容器標籤,能將input輸入值回傳,input標籤有多種屬性,
+可從type更改,text為輸入帳號文字、password為輸入密碼、radio為單選、checkbox為複選、
+dare為日期、range為範圍、file為檔案上傳,
+placeholder為文字提示 -->
+  <form>
+    <a>帳號:</a>
+    <input type="text" placeholder="請輸入帳號"/>
+    <br/>
+    <a>密碼:</a>
+    <input type="password" placeholder="請輸入密碼"/>
+  </form>
+  <form>
+    <p>單選:</p>
+    <a>選項1.</a>
+<!-- 這裡的name為radio的名稱,相同類型的可歸類同名稱 -->
+    <input type="radio"name="radio"/>
+    <a>選項2.</a>
+    <input type="radio"name="radio"/>
+  </form>
+  <input type="date"/>
+  <br/>
+  <input type="range"/>
+  <br/>
+  <input type="file"/>
+  <br/>
+  <form>
+    <p>複選:</p>
+    <a>選項1.</a>
+    <input type="checkbox"/>
+    <a>選項2.</a>
+    <input type="checkbox"/>
+  </form>
+  <br/>
+<!-- textarea為純文字編輯器,能讓網頁上有一個可以任意輸入文字的表格 -->
+  <textarea placeholder="選輸入自傳"></textarea>
+</body>
+</html>

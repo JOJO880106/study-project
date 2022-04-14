@@ -1,0 +1,27 @@
+/*
+    初始的<html lang="en">設定中的en為初始與原為英文,
+    若要改為中文則輸入<html lang="zh-Hant">
+*/
+/*
+    meta name="description" content="輸入:描述網站內容"
+    meta name="author" content="輸入:作者是誰"
+    meta name="keywords" content="輸入:網站關鍵字"
+    meta name="viewport" content=輸入:"width=device-width, initial-scale=1.0"
+*/
+/*
+    <title>網頁標題</title>,
+    可更改該網頁標題
+*/
+/*
+    通常使用code撰寫,在資料夾創建專案,
+    新增檔案並將命名後取為.html,即為html檔,
+    在code上可裝外掛live server,
+    將可開啟server觀看當前網頁狀況作為監測
+*/
+/*
+    live server設定,在code內開啟setting
+    輸入:
+    "liveServer.settings.port":80,
+    "liveServer.settings.host":"localhost"
+    即可將server更改為80port以及localhost
+*/
