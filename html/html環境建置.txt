@@ -25,3 +25,13 @@
     "liveServer.settings.host":"localhost"
     即可將server更改為80port以及localhost
 */
+/*
+    html在body中新架構為:
+      <div class="container">
+        <header>Header</header>
+        <aside>Aside</aside>
+        <main>Main</main>
+        <aside>Aside</aside>
+        <footer>Footer</footer>
+      </div>
+*/
