@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML&CSS基礎教學</title>
+<!-- link為引入css的指令,需輸入rel="stylesheet"說明為css檔,再用href輸入位址 -->
+  <link rel="stylesheet" href="./demo3.css"/>
+</head>
+<body>
+<!-- CSS的opacity(透明度)&border-radius(邊框修圖)教學,
+在標籤內寫入style=opacity能更改透明度,素質只有0~1,1為原色,
+在標籤內寫入border-radius能修改邊框,若正方形為100X100最大素質只能為50最多成為圓形 -->
+  <h1 style="text-align: center;">CSS的opacity&border-radius教學</h1>
+  <div style="opacity: 0.3;border-radius: 30px; background-color: blue;width: 100px;height: 100px;"></div>
+<!-- CSS的id&class與外部連結CSS教學,
+外部連結看head註記,若用標籤中屬性做CSS需[],若用*做CSS能選取整個網頁
+id為將標籤做唯一識別,在css檔內撰寫需先#開頭,
+class為將標籤做分類,在css檔內撰寫需先.開頭,
+撰寫css也可將不同的id、class寫在一起,中間需,才行,如沒,則會變成尋找物件中的東西 -->
+  <h1 id="css-h1">CSS的id&class教學</h1>
+  <p class="food">咖哩飯</p>
+  <p class="food background-pink">拉麵</p>
+  <p class="person background-pink">阿花</p>
+  <p class="person">小美</p>
+  <p id=id-1>id與class的CSS寫在一起</p>
+  <p class="class-1">id與class的CSS寫在一起</p>
+  <input type="text"/>
+  <br/>
+  <input type="password/">
+  <ul>
+    <li><a>CSS階層示範</a></li>
+    <li>CSS階層示範</li>
+    <li>CSS階層示範</li>
+  </ul>
+  <a>階層外部受CSS引響</a>
+<!-- CSS的hover教學,若再CSS上撰寫:hover則滑鼠碰到會做{}內事項 -->
+<h2 id="h2-hover">hover教學</h2>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML&CSS基礎教學</title>
+</head>
+<body>
+<!-- 在HTML標籤內使用CSS的style改變字體顏色、大小以及背景顏色和線條(實線跟虛線)和文字對齊置中 -->
+  <div style="color: red; font-size: 20px;">
+    <h1 style="background-color: blue; color: orange;text-align: center;">HTML標籤內使用CSS教學</h1>
+    <p style="border: solid 1px; color: green; width: 200px;">第一個段落</p>
+    <p style="border: dashed 4px; color: blueviolet; width: 200px;">第二個段落</p>
+  </div>
+<!-- CSS的padding(控制內部空間)&margin(控制外部空間)教學
+padding以及margin的設定可寫為padding: 0px,即為上下左右皆為0,
+也可padding: 10px 20px 30px 40px,分別為上右下左(順時針順序), -->
+  <div style="padding: 0px;margin: 0px; background-color: yellow;border: solid 3px;">
+    <p>CSS的padding(控制內部空間)&margin(控制外部空間)教學</p>
+  </div>
+  <div style="padding: 30px;margin: 0px; width: 50px;height: 50px;background-color: aqua;"></div>
+  <div style="padding: 0px; margin: -50px -40px 20px 30px; width: 50px;height: 50px;background-color: red;"></div>
+<!-- CSS的float教學,即為將標籤設定為漂浮狀態,使接下來的東西網上堆疊,
+float可設定往左或往右飄移,float:left、float:right
+若設定clear:both即可解除漂浮狀態,即為正常 -->
+  <ul style="float: left;background-color: aquamarine;padding: 10px;margin: 0px;">
+      <li>表格1</li>
+      <li>表格2</li>
+      <li>表格3</li>
+      <li>表格4</li>
+      <li><a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">google</a></li>
+  </ul>
+  <h1 style="float: right; margin: 0px;">往右漂浮</h1>
+  <p>表格因CSS的style=float,漂浮後因未解除所以p標籤往上跑</p>
+  <p>漂浮未解除狀態</p>
+  <p style="clear:both;">因p標籤CSS的style=clear:both,將漂浮解除所以回到正常位置</p>
+  <p>漂浮解除後即為正常</p>
+<!-- CSS的display教學,能改變標籤的顯示方法,有inline(接下去)以及block(換行)兩種方式 -->
+  <p style="display: inline;">p標籤改變顯示方式</p>
+  <p style="display: inline;">p標籤改變顯示方式</p>
+  <a style="display: block;">a標籤改變顯示方式</a>
+  <a style="display: block;">a標籤改變顯示方式</a>
+</body>
+</html>

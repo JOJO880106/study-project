@@ -1,0 +1,34 @@
+/* 
+若用標籤中屬性做CSS需[]
+若用*做CSS能選取整個網頁
+id為將標籤做唯一識別,在css檔內撰寫需先#開頭
+class為將標籤做分類,在css檔內撰寫需先.開頭
+*/
+#css-h1{
+  color: green;
+  background-color: yellow;
+}
+.food{
+  color: red;
+}
+.person{
+  color: blue;
+}
+.background-pink{
+  background-color: pink;
+}
+#id-1, .class-1{
+  background-color: aquamarine;
+}
+[type]{
+  background-color: blueviolet;
+}
+ul li{
+  background-color: aquamarine;
+}
+ul a{
+  color: red;
+}
+#h2-hover:hover{
+  background-color: orange;
+}

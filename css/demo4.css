@@ -1,0 +1,70 @@
+.container1{
+  display: flex;
+  border: solid 1px red;
+  height: 80px;
+}
+.container1 div{
+  border: solid 1px green;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.box1-1{
+  flex: 1;
+  order: 2;
+}
+.box1-2{
+  flex: 1;
+  order: 3;
+}
+.box1-3{
+  flex: 1;
+  order: 1;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: solid 1px red;
+  height: 200px;
+}
+.container2 div{
+  border: solid 1px green;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px red;
+  height: 200px;
+}
+.container3 div{
+  border: solid 1px green;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.container4{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  border: solid 1px red;
+  height: 200px;
+}
+.container4 div{
+  border: solid 1px green;
+  width: 200px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+}

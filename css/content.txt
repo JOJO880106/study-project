@@ -1,0 +1,10 @@
+demo1:
+HTML標籤內使用style、padding(內部空間)&margin(外部空間)、float(漂浮)、clear:both(解除漂浮)、display(版面配置)
+demo2:
+position(固定位置)
+demo3:
+opacity(透明度)、border-radius(邊框修邊)、id&class、hover(滑鼠碰到進行...)
+demo4:
+flex(版面調整)、justify(主軸)、align(次軸)
+demo5:
+animation(動畫)
