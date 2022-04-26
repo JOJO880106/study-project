@@ -1,0 +1,32 @@
+demo1:
+註解、變數、document.write
+demo2:
+取絕對值、取最大值、取最小值、取整數、四捨五入法、次方、開根號、亂數
+web_calculator:
+字串轉數字(parseInt(整數)、parseFloat(小數))、prompt
+demo3:
+陣列、push、pop、unshift、shift、slice(複製陣列)
+demo4:
+函數、return、建構函數
+demo5:
+if、函數與if運用
+demo6:
+object、object+array、switch case、while迴圈、do while迴圈
+demo7:
+alert、prompt
+demo8:
+alert、prompt
+demo9:
+for、二維陣列&巢狀迴圈
+demo10:
+class、this、this綁定方法(bind與箭頭函數)
+demo11:
+繼承(extends、、super()、super.函數)
+demo12:
+取得html物件(document.getElementById(),只能取得id)、(document.querySelector(),能取得id與class,class要加.,id要加#)
+監聽(addEventListener('click(按下)'、'keyup(鍵位)'、'mouseover(滑鼠移入)'、'mouseout'(滑鼠移開)',函數))、
+若取的物件可更改innerText(修改文字)、innerHTML(修改DOM)、style.backgroundcolor(修改背景顏色)、style.color(修改文字顏色)、href(網址)
+memo:
+forEach、DOM修改、HTML CSS JS練習
+demo13:
+使用reduce將array的object取出放到其他地方

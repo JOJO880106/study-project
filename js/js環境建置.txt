@@ -1,0 +1,20 @@
+/*
+  需下載文件中nvm,做為node版本控管使用,
+  接著開啟terminal進行確認並安裝node,
+
+  terminal:
+  nvm version,確認是否安裝nvm並確定版本
+
+  安裝node:
+  nvm install latest,安裝最新版本
+  nvm install 版本號,指定安裝版本
+  ※node雙數版本為安定版(建議安裝),奇數版本為最新(比較不推薦安裝)
+  
+  nvm list,列出本機安裝過node版本,版本前有*代表當前選用版本
+  nvm use 版本號,切換到指定node版本
+  nvm uninstall 版本號,卸載本機安裝node
+*/
+/*
+  vscode外掛能安裝Node.js Exec,
+  能使程式撰寫完案f8開啟介面debug
+*/
