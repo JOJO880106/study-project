@@ -8,3 +8,5 @@ demo4:
 flex(版面調整)、justify(主軸)、align(次軸)
 demo5:
 animation(動畫)
+補充:
+box-sizing:border-box,將padding、margin預留空間取消
