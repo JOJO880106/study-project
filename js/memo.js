@@ -33,7 +33,7 @@ function render(){
 //監聽
 add1.addEventListener('click',function(){
   arr.unshift({ //將值存放入陣列
-    content:content1.value,
+    content:content1.value, //用getElementById取得物件後,將值取出只需用變數.value
     date:date1.value,
     time:date1.value
   })

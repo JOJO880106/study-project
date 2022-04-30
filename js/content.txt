@@ -30,3 +30,7 @@ memo:
 forEach、DOM修改、HTML CSS JS練習
 demo13:
 使用reduce將array的object取出放到其他地方
+demo14:
+HTML CSS JS的BMI實作、透過textContent修改DOM
+demo15:
+HTML CSS JS的BMI實作、透過arr、object存放資料,再使用innerHTML更改DOM渲染畫面
