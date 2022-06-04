@@ -1,0 +1,2 @@
+#使用VScode當作編輯器,需下載python此版本使用為3.9.1
+#完成後須到VScode安裝外掛python即可使用code執行python
